@@ -1,6 +1,10 @@
 # Launch Emulation
 
-
+---
+### Resource
+* XSCT to Python API migration
+    * https://docs.amd.com/r/en-US/ug1400-vitis-embedded/XSCT-to-Python-API-migration
+  
 ### Configure HAPS and Program the Bitstream
 
 
