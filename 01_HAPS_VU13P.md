@@ -21,10 +21,28 @@
 
 
 ---
-#### Block Diagram
+### Block Diagram
 <img width="650" height="867" alt="image" src="https://github.com/user-attachments/assets/96837013-f89b-4063-ae25-fa37abb4d3f7" />
-
 <br><br>
 
-#### Main Board Laypout: Top View
+### I/O Signals and Connections
+<img width="650" height="717" alt="image" src="https://github.com/user-attachments/assets/3527a970-bd5a-40db-ab52-ff979e868c96" />
+<br><br>
+
+### Main Board Laypout: Top View
 <img width="800" height="1027" alt="image" src="https://github.com/user-attachments/assets/9f5f3c7d-af85-4fdb-8d13-d539a9e5e397" />
+<br><br>
+
+### Clocking
+
+* Local Clocks
+    * Local clocks on FPGAs are available through the **HapsTrak 3 (HT3)** connector.
+    * Signals are differential, GC (Global Clock), GC_QBC (Global Clock,Quad-Byte Clock) and DBC (Dedicated-Byte Clock).
+* Global Clocks
+    * The EPS-VU13P system features 5 global clocks driven by on-board PLLs:
+    * one PLL is dedicated to FPGA (**GCLK3**), while another PLL serves the FPGA for **GCLK0 to GCLK2** via the pin pair C1P/C1N on all 10 HT3 connectors.
+    * Users can customize the EXT_GCLK (GCLK4) for the FPGA by connecting an external clock source via an MMCX connector.
+    * All global clock nets utilize LVDS differential signaling for optimal performance.
+* The PLL input source is fixed at a 48MHz crystal.
+
+  
