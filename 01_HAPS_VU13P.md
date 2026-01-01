@@ -22,7 +22,7 @@
 
 ---
 ### Block Diagram
-<img width="650" height="867" alt="image" src="https://github.com/user-attachments/assets/96837013-f89b-4063-ae25-fa37abb4d3f7" />
+<img width="600" height="867" alt="image" src="https://github.com/user-attachments/assets/96837013-f89b-4063-ae25-fa37abb4d3f7" />
 <br><br>
 
 ### I/O Signals and Connections
@@ -31,6 +31,10 @@
 
 ### Main Board Laypout: Top View
 <img width="800" height="1027" alt="image" src="https://github.com/user-attachments/assets/9f5f3c7d-af85-4fdb-8d13-d539a9e5e397" />
+<br><br>
+
+### EPS-VU13P USer Panel
+<img width="650" height="688" alt="image" src="https://github.com/user-attachments/assets/43ded654-5fdd-4a11-857c-a979f6bdda02" />
 <br><br>
 
 ### Clocking
