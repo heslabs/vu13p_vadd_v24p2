@@ -41,7 +41,7 @@
 
 * Local Clocks
    * Local clocks on FPGAs are available through the **HapsTrak 3 (HT3)** connector.
-   * Signals are differential, GC (Global Clock), GC_QBC (Global Clock,Quad-Byte Clock) and DBC (Dedicated-Byte Clock).
+   * Signals are differential, **GC** (Global Clock), **GC_QBC** (Global Clock,Quad-Byte Clock) and **DBC** (Dedicated-Byte Clock).
 * Global Clocks
    * The EPS-VU13P system features 5 global clocks driven by on-board PLLs:
    * one PLL is dedicated to FPGA (**GCLK3**), while another PLL serves the FPGA for **GCLK0 to GCLK2** via the pin pair C1P/C1N on all 10 HT3 connectors.
