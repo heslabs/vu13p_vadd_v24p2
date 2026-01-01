@@ -36,13 +36,20 @@
 ### Clocking
 
 * Local Clocks
-    * Local clocks on FPGAs are available through the **HapsTrak 3 (HT3)** connector.
-    * Signals are differential, GC (Global Clock), GC_QBC (Global Clock,Quad-Byte Clock) and DBC (Dedicated-Byte Clock).
+   * Local clocks on FPGAs are available through the **HapsTrak 3 (HT3)** connector.
+   * Signals are differential, GC (Global Clock), GC_QBC (Global Clock,Quad-Byte Clock) and DBC (Dedicated-Byte Clock).
 * Global Clocks
-    * The EPS-VU13P system features 5 global clocks driven by on-board PLLs:
-    * one PLL is dedicated to FPGA (**GCLK3**), while another PLL serves the FPGA for **GCLK0 to GCLK2** via the pin pair C1P/C1N on all 10 HT3 connectors.
-    * Users can customize the EXT_GCLK (GCLK4) for the FPGA by connecting an external clock source via an MMCX connector.
-    * All global clock nets utilize LVDS differential signaling for optimal performance.
-* The PLL input source is fixed at a 48MHz crystal.
+   * The EPS-VU13P system features 5 global clocks driven by on-board PLLs:
+   * one PLL is dedicated to FPGA (**GCLK3**), while another PLL serves the FPGA for **GCLK0 to GCLK2** via the pin pair C1P/C1N on all 10 HT3 connectors.
+   * Users can customize the EXT_GCLK (**GCLK4**) for the FPGA by connecting an external clock source via an MMCX connector.
+   * All global clock nets utilize LVDS differential signaling for optimal performance.
+   * The PLL input source is fixed at a 48MHz crystal.
+   * The default frequencies for different components are as follows: FPGA (**VU13P_GCLK**) operates at **125MHz**
+   * QSFP (**QSFP28_REFCLK**) operates at **156.25MHz**, and an output clock frequency range between 100Hz to 720MHz is achievable.
+   * The on-board DDR4 (**C0_SYS_CLK_C**) operates at **200MHz**, and this frequency is non-configurable.
+
+ 
+<br><br>
+<img width="850" height="742" alt="image" src="https://github.com/user-attachments/assets/469a791d-6363-4f9d-9e69-df8bda8b02c5" />
 
   
