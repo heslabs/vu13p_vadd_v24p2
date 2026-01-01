@@ -77,6 +77,8 @@ set_property IOSTANDARD DIFF_SSTL12 [get_ports c0_sys_clk_clk_p]
 set_property IOSTANDARD DIFF_SSTL12 [get_ports c0_sys_clk_clk_n]
 ```
 
+### Pin Assignment
+
 <br><br>
 <img width="900" height="652" alt="image" src="https://github.com/user-attachments/assets/b4e4d82a-6b8d-4c07-a9e2-8a87cca07edd" />
 <br><br>
