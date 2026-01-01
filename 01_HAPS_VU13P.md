@@ -56,8 +56,9 @@
 <br><br>
 <img width="750" height="742" alt="image" src="https://github.com/user-attachments/assets/469a791d-6363-4f9d-9e69-df8bda8b02c5" />
 
-### Clocks xdc
+### Clocks Constranits File
 ```
+### pin.xdc
 set_property PACKAGE_PIN BB9 [get_ports {gclk_clk_p[0]}]
 set_property PACKAGE_PIN P11 [get_ports aurora_refclk_clk_p]
 set_property PACKAGE_PIN A20 [get_ports rst_btn]
