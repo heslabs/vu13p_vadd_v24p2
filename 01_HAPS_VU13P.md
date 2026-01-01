@@ -86,5 +86,6 @@ set_property IOSTANDARD DIFF_SSTL12 [get_ports c0_sys_clk_clk_n]
 <img width="850" height="973" alt="image" src="https://github.com/user-attachments/assets/a3b09062-a108-46ac-9770-19d73e56ab24" />
 <br><br>
 <img width="850" height="1740" alt="image" src="https://github.com/user-attachments/assets/248d97c4-4e1f-48a8-aa21-ab38ab44df77" />
-
+<br><br>
+<img width="850" height="1319" alt="image" src="https://github.com/user-attachments/assets/05f6097f-4812-4901-83ff-83bbea6d1329" />
   
