@@ -6,7 +6,6 @@
 
 ```
 create_project hls /home/demo/haps/vu13p/vu13p_vadd_v24p2/vivado/hls -part xcvu13p-fhgb2104-2-e
-set_property  ip_repo_paths  /home/demo/dla/zcu104dla_v24p2/source/RTL_nv_small_07 [current_project]
 update_ip_catalog
 add_files -norecurse {/home/demo/haps/vu13p/vu13p_vadd_v24p2/src/vadd/vadd_B_BUS_m_axi.v /home/demo/haps/vu13p/vu13p_vadd_v24p2/src/vadd/vadd_A_BUS_m_axi.v /home/demo/haps/vu13p/vu13p_vadd_v24p2/src/vadd/vadd_CTRL_BUS_s_axi.v /home/demo/haps/vu13p/vu13p_vadd_v24p2/src/vadd/vadd_C_BUS_m_axi.v /home/demo/haps/vu13p/vu13p_vadd_v24p2/src/vadd/vadd.v}
 import_files -force -norecurse
@@ -26,7 +25,7 @@ ipx::create_xgui_files [ipx::current_core]
 ipx::update_checksums [ipx::current_core]
 ipx::check_integrity [ipx::current_core]
 ipx::save_core [ipx::current_core]
-set_property  ip_repo_paths  {/home/demo/haps/vu13p/vu13p_vadd_v24p2/vivado/ip_repo /home/demo/haps/vu13p/vu13p_vadd_v24p2/vivado/ip_repo/myip_1_0 /home/demo/dla/zcu104dla_v24p2/source/RTL_nv_small_07} [current_project]
+set_property  ip_repo_paths  {/home/demo/haps/vu13p/vu13p_vadd_v24p2/vivado/ip_repo /home/demo/haps/vu13p/vu13p_vadd_v24p2/vivado/ip_repo/myip_1_0} [current_project]
 ```
 
 ---
