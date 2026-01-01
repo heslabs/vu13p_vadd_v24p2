@@ -5,4 +5,16 @@
 <img width="250" height="89" alt="image" src="https://github.com/user-attachments/assets/b8f3c26e-95a6-43ca-b180-7a2bf4291bf3" />
 
 ---
-### Introduction
+### Features
+* 1 Xilinx Virtex UltraScale+ XCVU13P FHGB2104 FPGA
+* Selectable I/O voltage for HapsTrak 3 daughter board slots
+* Configurable global clocks
+* Real-time monitoring of voltage/current and temperature
+* Physical JTAG Programming
+* Xilinx Virtual Cable Programming
+* 4 samtec APF6 connector (72 pairs GTY transceivers)
+* 10 HapsTrak 3 connectors
+* 1 on-board DDR4 16bit SDRAM 1GB
+* 1 PMOD connectors
+* QSFP supports applications up to 28G
+* RJ45 10/100/1000M RGMII PHY chip(88E1518)
