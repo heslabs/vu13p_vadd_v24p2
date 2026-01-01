@@ -91,5 +91,5 @@ set_property IOSTANDARD DIFF_SSTL12 [get_ports c0_sys_clk_clk_n]
 <br><br>
 
 ### JX5: External DDR4
-<img width="950" height="1201" alt="image" src="https://github.com/user-attachments/assets/d742434d-1bdf-4a84-a436-b8fd6dfade08" />
+<img width="1000" height="1201" alt="image" src="https://github.com/user-attachments/assets/d742434d-1bdf-4a84-a436-b8fd6dfade08" />
 <br><br> 
