@@ -54,6 +54,29 @@
 
  
 <br><br>
-<img width="850" height="742" alt="image" src="https://github.com/user-attachments/assets/469a791d-6363-4f9d-9e69-df8bda8b02c5" />
+<img width="750" height="742" alt="image" src="https://github.com/user-attachments/assets/469a791d-6363-4f9d-9e69-df8bda8b02c5" />
+
+### Clocks xdc
+```
+set_property PACKAGE_PIN BB9 [get_ports {gclk_clk_p[0]}]
+set_property PACKAGE_PIN P11 [get_ports aurora_refclk_clk_p]
+set_property PACKAGE_PIN A20 [get_ports rst_btn]
+### SODIMM_HT3 JX1 JX2 JX3 <> EPS_VU13P  JX7 JX6 JX5
+set_property -dict {PACKAGE_PIN AG31 IOSTANDARD LVCMOS12} [get_ports c0_ddr4_32G_reset_n]
+set_property -dict {PACKAGE_PIN AE31 IOSTANDARD DIFF_SSTL12} [get_ports c1_sys_clk_clk_p]
+set_property -dict {PACKAGE_PIN AE32 IOSTANDARD DIFF_SSTL12} [get_ports c1_sys_clk_clk_n]
+set_property -dict {PACKAGE_PIN AH32 IOSTANDARD SSTL12_DCI OUTPUT_IMPEDANCE RDRV_40_40} [get_ports c0_ddr4_32G_act_n]
+### 
+set_property IOSTANDARD LVDS [get_ports {gclk_clk_p[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports rst_btn]
+create_clock -period 6.400 -name aurora_refclk_clk_p -waveform {0.000 3.200} [get_ports aurora_refclk_clk_p]
+set_property IOSTANDARD DIFF_SSTL12 [get_ports c0_sys_clk_clk_p]
+set_property IOSTANDARD DIFF_SSTL12 [get_ports c0_sys_clk_clk_n]
+```
+
+<br><br>
+<img width="850" height="653" alt="image" src="https://github.com/user-attachments/assets/f0d5b6d3-1e98-45c5-814e-6c7385203c44" />
+<br><br>
+<img width="850" height="973" alt="image" src="https://github.com/user-attachments/assets/a3b09062-a108-46ac-9770-19d73e56ab24" />
 
   
