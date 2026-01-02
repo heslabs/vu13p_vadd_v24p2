@@ -6,7 +6,9 @@
    * https://docs.amd.com/r/en-US/ug1702-vitis-accelerated-reference/Output-Directories-of-v-c-mode-aie
 * XSCT to Python API migration
     * https://docs.amd.com/r/en-US/ug1400-vitis-embedded/XSCT-to-Python-API-migration
-  
+* Github: Xilinx/embeddedsw/lib/bsp/standalone/src/common
+    * https://github.com/Xilinx/embeddedsw/tree/master/lib/bsp/standalone/src/common
+    
 ### Configure HAPS and Program the Bitstream
 
 
