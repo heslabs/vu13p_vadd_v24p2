@@ -14,6 +14,8 @@
   * https://github.com/Xilinx/xup_high_level_synthesis_design_flow/blob/main/source/matmult/readme.md
 
 ### vadd
+* Vitis_Accel_Examples/rtl_kernels/rtl_vadd_2kernels/
+  * https://github.com/Xilinx/Vitis_Accel_Examples/tree/main/rtl_kernels/rtl_vadd_2kernels
 * Vitis_Accel_Examples/rtl_kernels/rtl_vadd_mixed_c_vadd/src/krnl_vadd.cpp
   * https://github.com/Xilinx/Vitis_Accel_Examples/blob/main/rtl_kernels/rtl_vadd_mixed_c_vadd/src/krnl_vadd.cpp
 * Vitis_Accel_Examples/hello_world/src/vadd.cpp
