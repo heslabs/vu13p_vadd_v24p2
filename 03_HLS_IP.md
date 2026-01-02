@@ -4,6 +4,8 @@
 ### Resource
 * High-Level-Synthesis Design Flow
   * https://github.com/Xilinx/xup_high_level_synthesis_design_flow/tree/main
+* Vitis_Accel_Examples/hello_world/src/vadd.cpp
+  * https://github.com/Xilinx/Vitis_Accel_Examples/blob/main/hello_world/src/vadd.cpp
 * Vitis HLS Design Flow Lab
   * https://xilinx.github.io/xup_high_level_synthesis_design_flow/
 * Vitis HLS Design Flow Lab - matmult
