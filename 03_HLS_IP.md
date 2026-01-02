@@ -2,6 +2,8 @@
 
 ---
 ### Resource
+* High-Level-Synthesis Design Flow
+  * https://github.com/Xilinx/xup_high_level_synthesis_design_flow/tree/main
 * Vitis HLS Design Flow Lab
   * https://xilinx.github.io/xup_high_level_synthesis_design_flow/
 * Vitis HLS Design Flow Lab - matmult
