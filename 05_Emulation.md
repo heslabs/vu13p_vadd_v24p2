@@ -2,6 +2,8 @@
 
 ---
 ### Resource
+* Vitis Reference Guide (UG1702)
+   * https://docs.amd.com/r/en-US/ug1702-vitis-accelerated-reference/Output-Directories-of-v-c-mode-aie
 * XSCT to Python API migration
     * https://docs.amd.com/r/en-US/ug1400-vitis-embedded/XSCT-to-Python-API-migration
   
