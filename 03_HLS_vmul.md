@@ -1,5 +1,34 @@
 # Visit HLS IP - vmul
 
+---
+
+$$
+C = A \times B = \begin{bmatrix} 
+a & b \\ 
+c & d 
+\end{bmatrix} 
+\times 
+\begin{bmatrix} 
+e & f \\ 
+g & h 
+\end{bmatrix}
+$$
+
+```
+$$
+C = A \times B = \begin{bmatrix} 
+a & b \\ 
+c & d 
+\end{bmatrix} 
+\times 
+\begin{bmatrix} 
+e & f \\ 
+g & h 
+\end{bmatrix}
+$$
+```
+
+
  
 ---
 ### Tcl
