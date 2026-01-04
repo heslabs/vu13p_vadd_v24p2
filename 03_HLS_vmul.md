@@ -1,18 +1,25 @@
 # Visit HLS IP - vmul
 
+displayAlign: "left"
+
 ---
 * Matrix Multiplication
   * https://github.com/damianc/math-notes/blob/master/matrices/matrix-multiplication.md
 
 $Bias(\hat{\theta}) = E(\hat{\theta}) - \theta$ = 2E(X) - 1 - \theta
-  
-$$C = A \times B = 
+
+
+
+$$
+\begin{aligned}
+C = A \times B = 
 \begin{bmatrix} 
 a & b \\ 
 c & d \end{bmatrix} \times \begin{bmatrix} 
 e & f \\ 
 g & h 
 \end{bmatrix}
+\end{aligned}
 $$
 
  
