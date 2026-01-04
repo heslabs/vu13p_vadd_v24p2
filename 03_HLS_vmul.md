@@ -1,6 +1,8 @@
 # Visit HLS IP - vmul
 
 ---
+* Matrix Multiplication
+  * https://github.com/damianc/math-notes/blob/master/matrices/matrix-multiplication.md
 
 $$
 C = A \times B = \begin{bmatrix} 
