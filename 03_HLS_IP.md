@@ -2,6 +2,8 @@
 
 ---
 ### Resource
+* Vitis High-Level Synthesis User Guide (UG1399)
+  * https://docs.amd.com/r/en-US/ug1399-vitis-hls/Vitis-HLS-Command-Reference
 * High-Level-Synthesis Design Flow
   * https://github.com/Xilinx/xup_high_level_synthesis_design_flow/tree/main
 * Vitis HLS Design Flow Lab
