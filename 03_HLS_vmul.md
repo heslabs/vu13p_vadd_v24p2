@@ -4,19 +4,20 @@
 * Matrix Multiplication
   * https://github.com/damianc/math-notes/blob/master/matrices/matrix-multiplication.md
 
-$$
-C = A \times B = \begin{bmatrix} 
-a & b \\ 
-c & d 
-\end{bmatrix} 
-\times 
+$Bias(\hat{\theta}) = E(\hat{\theta}) - \theta$ = 2E(X) - 1 - \theta
+  
+$$C = A \times B = 
 \begin{bmatrix} 
+a & b \\ 
+c & d \end{bmatrix} \times \begin{bmatrix} 
 e & f \\ 
 g & h 
 \end{bmatrix}
 $$
 
+ 
 ```
+<div align="left">
 $$
 C = A \times B = \begin{bmatrix} 
 a & b \\ 
@@ -28,6 +29,7 @@ e & f \\
 g & h 
 \end{bmatrix}
 $$
+</div>
 ```
 
 
