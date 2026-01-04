@@ -1,30 +1,31 @@
 # Visit HLS IP - vmul
 
-displayAlign: "left"
-
+ 
 ---
 * Matrix Multiplication
   * https://github.com/damianc/math-notes/blob/master/matrices/matrix-multiplication.md
 
-$Bias(\hat{\theta}) = E(\hat{\theta}) - \theta$ = 2E(X) - 1 - \theta
 
+---
 
+**The Cauchy-Schwarz Inequality**\
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+```
+**The Cauchy-Schwarz Inequality**\
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+```
+
+---
 
 $$
-\begin{aligned}
 C = A \times B = 
-\begin{bmatrix} 
-a & b \\ 
-c & d \end{bmatrix} \times \begin{bmatrix} 
-e & f \\ 
-g & h 
-\end{bmatrix}
-\end{aligned}
+\begin{bmatrix} a & b \\\\ c & d \end{bmatrix} 
+\times 
+\begin{bmatrix} e & f \\\\ g & h \end{bmatrix}
 $$
-
  
 ```
-<div align="left">
 $$
 C = A \times B = \begin{bmatrix} 
 a & b \\ 
@@ -36,7 +37,6 @@ e & f \\
 g & h 
 \end{bmatrix}
 $$
-</div>
 ```
 
 
